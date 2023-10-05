@@ -9,6 +9,9 @@
     <link rel="icon" type="image/x-icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png" />
     <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,17 +31,34 @@
 <body>
     <section class="hero">
         <header>
-            <nav></nav>
+            <nav class="navbar">
+                <a href="#">Get the App</a>
+                <div class="navber_menu">
+                    <a href="#" class="link">Investor Relations</a>
+                    <a href="#" class="link">Add restaurant</a>
+                    <a href="#" class="link">log in</a>
+                    <a href="#" class="link">sign up</a>
+                    <a href="#" class="user-icon"><i class="fa-regular fa-user"></i></a>
+                </div>
+            </nav>
         </header>
-        <div>
-            <img src="images/heroSectionLogo.png" alt="zomato">
-            <h1></h1>
-            <div>
-                <input type="text">
-                <input type="search">
+        <div class="hero_cont">
+            <img class="logo" src="images/heroSectionLogo.png" alt="zomato">
+            <h1>Discover the best food & drinks in Hyderabad</h1>
+            <div class="hero_input">
+                <div class="hi_1">
+                    <i class=" loc fa-solid fa-location-dot"></i>
+                    <input class="loc_input" type="text" placeholder="Hyderabad">
+                </div>
+                <div class="hi_2">
+                    <i class=" search fa-solid fa-magnifying-glass"></i>
+                    <input class="search_input" type="search" placeholder="Search for restaurant, cuisine or a dish">
+                </div>
+
             </div>
         </div>
     </section>
+
 </body>
 
 </html>

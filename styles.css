@@ -4,3 +4,138 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.hero {
+  background: url(images/heroSectionBackground.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 60vh;
+}
+
+.navbar {
+  padding-top: 16px 48px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffff;
+}
+.navber_menu {
+  display: flex;
+  gap: 20px;
+}
+.logo {
+  height: 60px;
+}
+.user-icon {
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: solid 1px white;
+  display: none;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.hero_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  height: calc(60vh - 60px);
+}
+
+.hero_cont h1 {
+  font-weight: 400;
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+.hero_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.search_input,
+.loc_input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.hi_1 {
+  width: 30%;
+}
+.hi_2 {
+  width: 70%;
+}
+.loc_input {
+  width: 80%;
+  border-right: 2px solid #e0e0e0;
+}
+.search_input {
+  width: 80%;
+}
+.loc {
+  color: rgb(255, 103, 103);
+  width: 30px;
+}
+.search {
+  color: #e0e0e0;
+  width: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .user-icon {
+    display: flex;
+  }
+  .link {
+    display: none;
+  }
+  .navbar {
+    padding: 16px;
+  }
+  .hero {
+    min-height: 80vh;
+  }
+  .hero_input {
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+  }
+  .search_input,
+  .loc_input {
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .hero_cont {
+    min-height: calc(80vh - 60 px);
+  }
+
+  .hero_cont h1 {
+    font-size: 20px;
+    width: 95%;
+  }
+}
