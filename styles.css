@@ -100,6 +100,151 @@
   color: #e0e0e0;
   width: 30px;
 }
+.sec2_menu_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+.sec2_card {
+  border: 1px solid #e0e0e0;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.hov {
+  transition: all 0.2s ease;
+}
+.hov :hover {
+  -ms-transform: scale(1.1);
+  /*IE9*/
+  -webkit-transform: scale(1.1);
+  /*Safari3-8*/
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.sec2_img {
+  height: 192px;
+  width: 354px;
+  /* border-top-left-radius: 30px;
+  border-top-right-radius: 30px; */
+  object-fit: cover;
+}
+
+.sec2_details {
+  background-color: white;
+  padding: 10px 20px;
+  /* border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
+}
+.sec2_details h3 {
+  font-weight: 400;
+}
+
+.sec2_details p {
+  color: #4f4f4f;
+}
+.body_section {
+  margin: 2rem auto;
+  width: 80%;
+}
+.Collections {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.Collections h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.all_col {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(54, 54, 54);
+}
+.all_right {
+  color: #ef4f5f;
+  font-size: 16px;
+}
+.col_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 15px;
+  cursor: pointer;
+}
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-position: cover;
+  position: relative;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.card img {
+  width: 267px;
+  height: 320px;
+  object-fit: fill;
+  padding-bottom: 0;
+  margin: 0;
+  padding: 0%;
+}
+
+.card_det {
+  padding: 10px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+}
+
+.popular p {
+  margin: 0px;
+  color: rgb(54, 54, 54);
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.popular {
+  margin-left: 30px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.table {
+  width: 90%;
+}
+tr {
+  display: flex;
+  align-items: end;
+  justify-content:stretch;
+  
+}
+td{
+  border: 1px solid #e0e0e0;
+  padding:  15px 100px;
+  width: 33.3%;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
 @media only screen and (max-width: 600px) {
   .user-icon {
