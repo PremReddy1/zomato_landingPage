@@ -119,14 +119,7 @@
   transition: all 0.2s ease;
 }
 .hov :hover {
-  -ms-transform: scale(1.1);
-  /*IE9*/
-  -webkit-transform: scale(1.1);
-  /*Safari3-8*/
   transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
 }
 
 .sec2_img {
@@ -191,10 +184,14 @@
   overflow: hidden;
   background-position: cover;
   position: relative;
+  transition: all 0.2s ease;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+.card:hover {
+  transform: scale(1.1);
 }
 .card img {
   width: 267px;
