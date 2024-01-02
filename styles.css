@@ -252,6 +252,9 @@ td:hover {
   align-items: center;
   margin: 100px 0;
 }
+.form {
+  display: block;
+}
 .app_img {
   overflow: hidden;
   border-radius: 10px;
